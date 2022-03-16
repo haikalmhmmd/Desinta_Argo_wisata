@@ -1,3 +1,36 @@
+/*Tambahkan beberapa padding pada badan dokumen untuk mencegah konten
+     untuk pergi di bawah header dan footer */
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Pusatkan DIV secara horizontal */
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }    
+    /*Beberapa gaya lagi untuk memperbaiki */
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+    .container p{
+        line-height: 200px; /* Buat bilah gulir untuk menguji pemosisian */
+    }
 .top-wrapper {
     padding: 100px 80px;
 }
