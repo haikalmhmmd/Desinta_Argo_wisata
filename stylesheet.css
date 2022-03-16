@@ -59,3 +59,120 @@
     font-size: 100%;
     font-weight: bold;
 }
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+<!-- hasil kerja pembuatan css lesson by A07_Haikal -->
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.lessons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(img/background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lessons .card {
+  width: 300px;
+  height: 400px;
+  line-height: 1.5;
+  color: #fff;
+  display: flex;
+  border-radius: 2px;
+  margin: auto;
+  transition: all 0.5s;
+}
+
+.card {
+  background-image: url(img/argo-1.jpg); /* background image card pertama */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+}
+
+.card h1 {
+  font-size: 30px;
+  font-family: "Lobster Two", cursive;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.card .btn {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+  margin: 10px 0 20px 0;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+
+.card .btn:hover {
+  padding: 5px 20px;
+}
+
+.text {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.text:hover {
+  opacity: 1;
+}
+
+.card:hover {
+  transform: translateY(20px);
+}
+
+/* menambahkan background image di card kedua */
+.two {
+  background-image: url(img/argo-2.jpg);
+}
+
+/* menambahkan background image di card ketiga */
+.three {
+  background-image: url(img/argo-3.jpg);
+}
+
+/* menambahkan background image di card keempat */
+.four {
+  background-image: url(img/argo-4.jpg);
+}
+
+.two p {
+  width: 90%;
+}
+
+.three p {
+  width: 90%;
+}
+
+.four p {
+  width: 90%;
+}
