@@ -176,3 +176,73 @@ body {
 .four p {
   width: 90%;
 }
+<!-- hasil kerja pembuatan  header dan footer by A07_Hamerton -->
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+    border-radius: 4px;
+    margin :10px 10px;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+
+ .form input {
+     width: 240px;
+     height: 35px;
+     background: transparent;
+     border-bottom: 1px solid #eee;
+     border-top: none;
+     border-right: none;
+     border-left: none;
+     color: rgb(0, 0, 0);
+     font-size: 15px;
+     letter-spacing: 1px;
+     margin-top: 1px;
+     font-family: sans-serif;
+ }
+
+ .form h3 {
+     font-size: 14px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+ }
+ .form input:focus {
+     outline: none;
+ }
+
+ ::placeholder {
+     color: rgb(133, 133, 133);
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .form select {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #eee;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 1px;
+    font-family: sans-serif;
+}
+
+
+
