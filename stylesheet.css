@@ -1,3 +1,4 @@
+<!-- hasil kerja pembuatan css header dan footer by A07_Fazar -->
 /*Tambahkan beberapa padding pada badan dokumen untuk mencegah konten
      untuk pergi di bawah header dan footer */
     body{        
@@ -34,7 +35,7 @@
 .top-wrapper {
     padding: 100px 80px;
 }
-
+<!-- hasil kerja pembuatan css TOP by A07_Eveline -->
 .top-wrapper {
     padding-top: 180px;
     padding-bottom: 150px;
