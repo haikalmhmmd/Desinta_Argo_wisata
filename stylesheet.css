@@ -36,7 +36,7 @@
 .top-wrapper {
     padding-top: 180px;
     padding-bottom: 150px;
-    background-image: url(./images/background.jpg);
+    background-image: url(images/background.jpg);
     background-size: cover;  
     text-align: center;
     background-repeat: no-repeat;
@@ -77,7 +77,7 @@ body {
   align-items: center;
   min-height: 100vh;
   position: relative;
-  background-image: url(img/background-1.jpg);
+  background-image: url(images/background-1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -95,7 +95,7 @@ body {
 }
 
 .card {
-  background-image: url(img/argo-1.jpg); /* background image card pertama */
+  background-image: url(images/argo-1.jpg); /* background image card pertama */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -152,17 +152,17 @@ body {
 
 /* menambahkan background image di card kedua */
 .two {
-  background-image: url(img/argo-2.jpg);
+  background-image: url(images/argo-2.jpg);
 }
 
 /* menambahkan background image di card ketiga */
 .three {
-  background-image: url(img/argo-3.jpg);
+  background-image: url(images/argo-3.jpg);
 }
 
 /* menambahkan background image di card keempat */
 .four {
-  background-image: url(img/argo-4.jpg);
+  background-image: url(images/argo-4.jpg);
 }
 
 .two p {
